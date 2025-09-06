@@ -1,0 +1,12 @@
+# data (keep out of git)
+data/
+Dummy/
+
+# common large artifacts (optional)
+*.parquet
+*.csv
+*.tsv
+*.zip
+*.gz
+*.bz2
+*.xz
