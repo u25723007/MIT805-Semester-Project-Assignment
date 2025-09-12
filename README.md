@@ -17,6 +17,15 @@ Libraries: pandas, pyarrow, requests, tqdm, numpy, botocore, geopandas, meteosta
 
 
 
-To download all the data, please locate download.ipynb notebook included in code, and run it.
+To download all the data, please locate download_data.ipynb notebook included in code, and run it.
 
+The notebook downloads from from TLC’s official site,  it skip re-downloads using filename+size checksum. 
 
+# Directories
+TCL Trip data will downloaded into \data\tlc
+
+Hourly weather folder: \data\weather\hourly
+
+Zone lookup and shape file: \data\geo
+
+Please note that /data/ folder is included in .gitignore therefore it will note be part of the online repo, exists locally only.
