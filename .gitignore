@@ -2,7 +2,7 @@
 data/
 Dummy/
 
-# common large artifacts (optional)
+# large files
 *.parquet
 *.csv
 *.tsv
