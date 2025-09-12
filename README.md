@@ -5,12 +5,14 @@ New York City, one of the most popular cities in the US, has millions of taxi tr
 Language: python
 Libraries: pandas, pyarrow, requests, tqdm, numpy, botocore, geopandas, meteostat.
 
+
 #Datasets
-[TLC Trip Record Data (From Jan 2023 to Dec 2024)](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
-[Taxi Zone Lookup Table ](https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv
+[TLC Trip Record Data (From Jan 2023 to Dec 2024)](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
-[Meteostat Hourly Weather Data (from Jan 2023 to Dec 2024](https://dev.meteostat.net/python/hourly.html#example
+[Taxi Zone Lookup Table ](https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv)
+
+[Meteostat Hourly Weather Data (from Jan 2023 to Dec 2024](https://dev.meteostat.net/python/hourly.html#example)
 
 
 
