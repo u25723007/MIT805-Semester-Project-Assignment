@@ -17,6 +17,8 @@ Libraries: pandas, pyarrow, requests, tqdm, numpy, botocore, geopandas, meteosta
 
 
 
-To download all the data, please locate download.ipynb notebook included in code, and run it.
+To download all the data, please locate download_data.ipynb notebook included in code, and run it.
+
+The notebook downloads from from TLC’s official site,  it skip re-downloads using filename+size checksum. 
 
 
