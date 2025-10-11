@@ -4,7 +4,7 @@ New York City, one of the most popular cities in the US, has millions of taxi tr
 # Dependancies
 Language: python
 
-Libraries: pandas, pyarrow, requests, tqdm, numpy, botocore, geopandas, meteostat.
+Libraries: pandas, pyarrow, requests, tqdm, numpy, botocore, geopandas, meteostat, pyspark, matplotlib
 
 
 # Datasets
@@ -20,6 +20,9 @@ Libraries: pandas, pyarrow, requests, tqdm, numpy, botocore, geopandas, meteosta
 To download all the data, please locate download_data.ipynb notebook included in code, and run it.
 
 The notebook downloads from from TLC’s official site,  it skip re-downloads using filename+size checksum. 
+To run the experiment including, downloading all the data, mapreduce, and visualization, use NYC_Transport_MapReduce_Visualization.ipynb notebook. 
+You can it locally or on Google colab (preferd option).
+It downlods transport data from TLC’s official site, Normalize the data, run mapreduce functions and show visualization. No need to intsall anything if you run from google colab, all packages to be used will installed automatically.
 
 # Directories
 TCL Trip data will downloaded into \data\tlc
